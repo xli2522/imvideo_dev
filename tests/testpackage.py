@@ -10,9 +10,7 @@ local.timelapse('demo.avi', 5,  r".\tests\test_image")
 from imvideo import memory
 
 def test_matplot_loop(n):
-    '''This function tests the function
-        Input:      n   number of frames
-    '''
+    '''Input:      n   number of frames'''
     images = []     # empty image container
     plt.figure()    # initialize matplotlib figure
     for i in range(n):
