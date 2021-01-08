@@ -4,7 +4,7 @@ import numpy as np
 # test local
 from imvideo import local
 
-local.timelapse('demo.avi', 5,  r".\imvideo_tutorial\tests\test_image")      # change folder address to your own
+local.timelapse('demo.avi', 5,  r".\tests\test_image")  
 
 # test memory
 from imvideo import memory
