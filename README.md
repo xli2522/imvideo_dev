@@ -67,7 +67,7 @@ Function constructs video from images in the container.
 ```python
 import imvideo as imv
 
-imv.local.timelapse(local.timelapse('demo.avi', 5,  r".\tests\test_image"))
+imv.local.timelapse('demo.avi', 5,  r".\tests\test_image"))
 ```
 
 2. Time-lapse video from a matplotlib loop:
