@@ -83,7 +83,7 @@ def test_matplot_loop(n):
         plt.plot([np.random.randint(2), np.random.randint(2)])
         plt.title("test" + str(i))
         images = imv.memory.savebuff(plt, images)      # save image in in-memory location
-        plt.clf()
+        plt.close()
     
     imv.memory.construct(images, 'matplot_demo.avi', 5)        # construct video; 5 fps
 
