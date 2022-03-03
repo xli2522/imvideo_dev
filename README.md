@@ -1,4 +1,4 @@
-[![PyPI version](https://badge.fury.io/py/imvideo.svg)](https://badge.fury.io/py/imvideo)
+[![PyPI version](https://badge.fury.io/py/imvideo.svg)](https://badge.fury.io/py/imvideo) [![Downloads](https://pepy.tech/badge/imvideo)](https://pepy.tech/project/imvideo) [![Downloads](https://pepy.tech/badge/imvideo/month)](https://pepy.tech/project/imvideo)
 # Imvideo 
 
 Imvideo helps you create time-lapse videos from camera-generated **image folder** and your **matplotlib** loop.
